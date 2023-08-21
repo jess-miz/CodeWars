@@ -11,6 +11,6 @@ solution(null); // []
 
 
 function sortNums(arr){
-    return !arr ? [] : arr.sort((a,b) => a - b) 
+    return arr ? arr.sort((a,b) => a - b) : []
 }
 
