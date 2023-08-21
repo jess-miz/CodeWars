@@ -21,5 +21,3 @@ function nbYear(p0, percent, aug, p) {
     }
   return year
 }
-
-nbYear(1500000, 2.5, 10000, 2000000) // 10
