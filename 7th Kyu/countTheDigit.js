@@ -20,3 +20,8 @@ function nbDig(n, d) {
     }
      return count.join('').split('').filter(x => x == d).length
 }
+
+// if you REALLY wanna go full codewars 
+function nbDig(n, d) {
+    return Array(n).fill(0).map((x,i)=> Math.pow(i + 1, 2).toString()).join('').split('').filter(x => x == d).length
+}
