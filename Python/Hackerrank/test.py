@@ -8,4 +8,3 @@ def diagonal_difference(arr):
         r_sum = r_sum + arr[(len(arr) - 1) - i]
     return abs(l_sum - r_sum) """
 
-
