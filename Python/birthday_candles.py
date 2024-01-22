@@ -1,3 +1,2 @@
 def birthdayCakeCandles(candles):
-    return candles.count(max(candles))
-
+    print(candles.count(max(candles)))
